@@ -14,7 +14,6 @@ namespace UtilityBotShabalin.Controllers
         private readonly ITelegramBotClient _telegramClient;
         private readonly IStorage _memoryStorage;
 
-
         public TextMessageController(ITelegramBotClient telegramBotClient, IStorage memoryStorage)
         {
             _telegramClient = telegramBotClient;
